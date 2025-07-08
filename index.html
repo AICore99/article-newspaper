@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Live ABC News Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>ABC News Live Portal</h1>
+    <button id="dark-toggle">Toggle Dark Mode</button>
+    <div class="ad-slot header-ad">
+      Ad Space (Header)
+    </div>
+  </header>
+
+  <section class="live-video">
+    <div class="video-container">
+      <iframe src="https://abcnews.go.com/Live/" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section id="top-stories" class="stories">
+    <h2>Top Stories</h2>
+    <ul id="stories-list">
+      <li>Loading latest news...</li>
+    </ul>
+  </section>
+
+  <aside class="sidebar">
+    <div class="ad-slot">Ad Space 300×250</div>
+  </aside>
+
+  <footer>
+    <p>&copy; 2025 Live ABC News Portal</p>
+  </footer>
+
+  <script src="feeds.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
